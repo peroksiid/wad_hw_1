@@ -1,1 +1,1 @@
-# wad_hw_1
+# Web Application Development Homework 1

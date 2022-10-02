@@ -1,4 +1,0 @@
-TEAM: AZ
-MEMBER: Hanna Paalmäe
-STUDENT ID: C013302
-LINK: https://github.com/peroksiid/wad_hw_1

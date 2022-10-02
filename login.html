@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+        </ul>
+        <a class="logo" href="login.html"><img src="images/me.png" width="60" alt="icon"></a>
+    </header>
+    <table class="table">
+        <tr>
+            <td width="15%"></td>
+            <td class="cpost" id="text">
+                <h3>Welcome to PostIt</h3>
+                <a href="#">Create an account</a>
+                <p>or</p>
+                <p>Please log in</p>
+                <form name="myForm" action="index.html" onsubmit="return validateForm()" method="post" required>
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="password" name="pw" placeholder="Password">
+                    <input type="submit" value="Log in">
+                </form>
+                <a href="# ">Forget password</a>
+            </td>
+            <td width="15% "></td>
+        </tr>
+    </table>
+</body>
+
+</html>

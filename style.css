@@ -1,0 +1,175 @@
+* {
+    font-family: sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.header {
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(182, 182, 182);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    padding: 20px;
+    font-size: xx-large;
+    display: flex;
+}
+
+.logo {
+    margin: 5px;
+    padding: 5px;
+}
+
+header+table {
+    padding: 1em;
+    width: 100%;
+}
+
+.box {
+    background-color: rgb(182, 182, 182);
+    border-radius: 20px;
+    width: 15%;
+}
+
+.mid {
+    width: 70%;
+    display: contents;
+}
+
+footer {
+    background-color: rgb(182, 182, 182);
+    border-radius: 20px;
+    font-size: xx-large;
+    margin: 0.5em;
+    padding: 1em;
+    text-align: center;
+}
+
+.post {
+    background-color: rgb(221, 221, 221);
+    border-radius: 20px;
+    text-align: left;
+    padding: 1em;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cpost {
+    background-color: rgb(221, 221, 221);
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.postbody {
+    display: flex;
+    padding: 1em;
+    justify-content: flex-end;
+    font-size: large;
+}
+
+textarea {
+    width: 70%;
+    height: 20em;
+    resize: none;
+    border: none;
+    padding: 20px;
+}
+
+button {
+    width: 50%;
+    padding: 20px 20px 20px 0px;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button1 {
+    background-color: rgb(182, 182, 182);
+}
+
+.button2 {
+    color: white;
+    background-color: rgb(23, 66, 131);
+    border: 1em;
+    border-color: black;
+    padding: 1em;
+    width: 50%;
+    text-align: center;
+    font-size: larger;
+}
+
+.button2:hover {
+    color: white;
+}
+
+.bmid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+#text {
+    text-align: center;
+}
+
+#text a {
+    color: rgb(0, 162, 255);
+    font-size: large;
+}
+
+#text>p {
+    font-size: large;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form>input {
+    padding: 1em;
+    font-size: large;
+    border: none;
+    margin: 10px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: rgb(23, 66, 131);
+    cursor: pointer;
+}
+
+div~p {
+    font-size: large;
+}
+
+.postbody>p {
+    margin: 10px;
+}
